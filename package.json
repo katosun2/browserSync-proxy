@@ -1,0 +1,23 @@
+{
+  "name": "browserSyncProj",
+  "version": "0.0.1",
+  "description": "a browser sync project",
+  "main": "index.js",
+  "scripts": {
+    "proxy": "browser-sync start --config ./bs-config-proxy.js",
+	"static": "browser-sync start --config ./bs-config-static.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "private"
+  },
+  "keywords": [
+    "browserSync"
+  ],
+  "author": "Ryu",
+  "license": "private",
+  "devDependencies": {
+    "http-proxy-middleware": "^0.15.2",
+    "browser-sync": "^2.10.0"
+  }
+}
