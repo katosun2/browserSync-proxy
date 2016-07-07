@@ -2,7 +2,7 @@
 
 #### 代理中间件
 
-[[https://github.com/chimurai/http-proxy-middleware|]]
+https://github.com/chimurai/http-proxy-middleware
 
 #### 使用
 
