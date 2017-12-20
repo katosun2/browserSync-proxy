@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "proxy": "browser-sync start --config ./bs-config-proxy.js",
-	"static": "browser-sync start --config ./bs-config-static.js"
+    "static": "browser-sync start --config ./bs-config-static.js"
   },
   "repository": {
     "type": "git",
@@ -17,7 +17,7 @@
   "author": "Ryu",
   "license": "private",
   "devDependencies": {
-    "http-proxy-middleware": "^0.15.2",
-    "browser-sync": "^2.10.0"
+    "browser-sync": "^2.19.0",
+    "http-proxy-middleware": "^0.17.4"
   }
 }
